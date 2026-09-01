@@ -3,8 +3,9 @@
 // questions in the app on the Setup page, which is saved in the browser and wins over these defaults.
 // See README: Editing the briefing.
 export const PROMPTS = [
-  { id: 'kpis', text: 'What are the top KPIs for the business this period?' },
-  { id: 'risks', text: 'What are the most important risks or alerts right now?' },
+  { id: 'revenue', text: 'What is our total revenue, and which product categories contribute the most?' },
+  { id: 'regions', text: 'Which regions and customer segments generate the most revenue?' },
+  { id: 'fulfillment', text: 'How do orders break down by status, and how many are not yet delivered?' },
 ];
 
 const PROMPTS_KEY = 'qab:prompts';
